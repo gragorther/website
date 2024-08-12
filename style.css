@@ -6,7 +6,7 @@
 	color: white;
 	background-color: #1f1f1f;
 	background-image: url("bg.png");
-	margin-bottom: 200px ;
+	margin-bottom: 0px ;
     font-family: monospace;
 	font-size: 17px;
 }
@@ -139,9 +139,9 @@ strong {
 
 footer {
 	text-align: center ;
-	font-variant: small-caps ;
 	clear: both ;
 	padding: 2em 0 ;
+	padding-top: 100px;
 }
 footer li {
 	display: inline-block ;
@@ -154,7 +154,7 @@ footer li:hover {
 
 nav { font-size: small ;}
 
-footer { font-size: large ; }
+footer { font-size: 100% ; }
 
 nav ul, footer ul, #taglist {
 	padding: 0;
